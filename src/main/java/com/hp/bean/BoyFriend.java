@@ -16,6 +16,7 @@ public class BoyFriend {
 	private int id;
 	private String username;
 	private String password;
+	private String gender;
 	@ManyToOne(targetEntity=GirlFriend.class)
 	@JoinColumn
 	@Cascade(CascadeType.ALL)
